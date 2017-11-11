@@ -30,6 +30,15 @@
         android:onClick="login"
         android:text="login" />
 
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="allCourses"
+        android:text="All courses" />
+
     <TextView
         android:id="@+id/status"
         android:layout_width="wrap_content"

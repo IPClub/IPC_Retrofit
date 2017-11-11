@@ -1,12 +1,12 @@
-package am.ipc.ipc_retrofit.retrofit.ipc_login;
+package am.ipc.ipc_retrofit.retrofit.ipc_courses;
 
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by haykc on 05/14/2017.
+ * Created by haykc on 05/16/2017.
  */
 
-public class LoginResponse {
+public class CoursesResponse {
 
     @SerializedName("status")
     public int status;
@@ -15,6 +15,7 @@ public class LoginResponse {
     public String message;
 
     @SerializedName("content")
-    public LoginContent content;
+    public CoursesContent c;
+
 
 }
